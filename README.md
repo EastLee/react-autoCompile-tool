@@ -1,0 +1,1 @@
+目前主要利用webpack-dev-middleware和webpack-hot-middleware进行自动编译，在config里面做一些简单的配置，比如react-hot等，运行时在node上起一个服务。对于疑惑的地方都加了一些注释。
