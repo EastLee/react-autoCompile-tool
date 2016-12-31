@@ -25,7 +25,7 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.js$/,
-      loaders: ['react-hot', 'babel'],//因为hot-loader并不会刷新网页，而仅仅是替换你修改的部分，也就是without losing state。
+      loaders: ['react-hot','babel'],//因为hot-loader并不会刷新网页，而仅仅是替换你修改的部分，也就是without losing state。
       exclude: /node_modules/
     }]
   }

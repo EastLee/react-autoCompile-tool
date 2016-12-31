@@ -16,7 +16,7 @@ app.use(require('morgan')('short'));
     publicPath: webpackConfig.output.publicPath
   }));
 
-  app.use(require('webpack-hot-middleware')(compiler, { //热替换最新的bundle
+  app.use(require('webpack-hot-middleware')(compiler,{ //热替换最新的bundle
     log: console.log,
     path: '/__webpack_hmr',
     heartbeat: 10 * 1000
